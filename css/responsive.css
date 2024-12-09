@@ -1,0 +1,276 @@
+/*==================== Media Queries for all the devices ====================*/
+
+@media (max-width:1700px) {
+    /*==================== 02. Homepage CSS ====================*/
+    #ms-bnr-sec .ms-home-bnr {
+        background-position-x: 500px;
+    }
+}
+
+
+@media (max-width:1600px) {
+    /*==================== 02. Homepage CSS ====================*/
+    #ms-bnr-sec .ms-home-bnr {
+        background-position-x: 440px;
+    }
+}
+
+
+@media (max-width:1500px) {
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    .ms-bnr-txt .hero-text {
+        font-size: 90px;
+    }
+    #ms-bnr-sec .ms-home-bnr {
+        background-position-x: 300px;
+    }
+    /*---------- Case Studies Section ----------*/
+    #ms-case-sec {
+        background-position: -90% 100%;
+    }
+    /*---------- Awards Section ----------*/
+    #ms-awards-sec {
+        padding-top: 400px;
+        margin-top: -150px;
+    }
+
+    /*==================== 02. Services Page CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-service-bnr-sec .ms-img-box {
+        padding: 30px;
+    }
+    #ms-service-bnr-sec .ms-pad {
+        padding: 0 5%;
+    }
+
+}
+
+
+@media (max-width:1400px) {
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        background-position-x: 200px;
+    }
+    /*---------- Case Studies Section ----------*/
+    #ms-case-sec {
+        background-position: -130% 100%;
+    }
+
+}
+
+
+@media (max-width:1300px) {
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Case Studies Section ----------*/
+    #ms-case-sec {
+        background-position: -200% 100%;
+    }
+
+}
+
+
+@media (max-width:1100px) {
+    /*==================== 01. General CSS ====================*/
+    .ms-heading-text {
+        font-size: 70px;
+    }
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        background-position-x: 140px;
+    }
+    .ms-bnr-txt .hero-text {
+        font-size: 80px;
+    }
+}
+
+
+@media (max-width:1030px) {
+    /*==================== 01. General CSS ====================*/
+    /* .ms-heading-text {
+        font-size:70px;
+    } */
+    /*---------- Footer Section ----------*/
+    footer .footer-top .vertical-seperator {
+        right: 225px;
+    }
+    footer .social-icons .ms-icon {
+        margin-right: 4px;
+    }
+    footer .footer-main .vertical-seperator {
+        right: 210px;
+    }
+
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        background-position-x: 70px;
+    }
+    /*---------- Awards Section ----------*/
+    #ms-awards-sec {
+        padding-top: 300px;
+        margin-top: -100px;
+    }
+    /*---------- Case Studies Section ----------*/
+    #ms-case-sec {
+        background-position: -560px 80%;
+    }
+    #ms-case-sec .owl-carousel .owl-nav {
+        left: 280px;
+    }
+
+    /*==================== 04. Services Page CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-service-bnr-sec .ms-pad {
+        padding: 0 4%;
+    }
+    #ms-service-bnr-sec .ms-spacer-90 {
+        height: 0;
+    }
+
+}
+
+
+@media (max-width:1000px) {
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    .ms-bnr-txt .hero-text {
+        font-size:70px;
+    }
+}
+
+
+@media (max-width:770px) {
+    /*==================== 01. General CSS ====================*/
+    .ms-heading-text {
+        font-size:50px;
+    }
+    /*---------- Header Section ----------*/
+    header nav .navbar-collapse {
+        background: #fff;
+        padding: 30px 10px 30px 10px;
+    }
+    /*---------- Footer Section ----------*/
+    footer .footer-top .padding-right {
+        padding-right: 15px;
+        padding-bottom: 40px;
+    }
+    footer .footer-top .padding-left {
+        padding-left: 15px;
+    }
+    footer .footer-top .news-box {
+        margin-top: -250px;
+    }
+
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        background-position-x: 0px;
+    }
+    .ms-bnr-txt .hero-text {
+        font-size: 60px;
+    }
+    /*---------- Case Studies Section ----------*/
+    #ms-case-sec {
+        background-position: -400px 30%;
+    }
+    #ms-case-sec .owl-carousel .owl-nav {
+        left: 500px;
+    }
+    /*---------- About Us Secion ----------*/
+    #ms-abt-sec {
+        padding-top: 0;
+    }
+    /*---------- Awards Section ----------*/
+    #ms-awards-sec {
+        padding-bottom: 350px;
+    }
+    #ms-awards-sec .ms-padding {
+        padding: 0;
+    }
+
+    /*==================== 04. Services Page CSS ====================*/
+    /*---------- Banner Section ----------*/
+    /* #ms-service-bnr-sec .ms-pad {
+        padding: 0 4%;
+    } */
+    /* #ms-service-bnr-sec .ms-spacer-90 {
+        height: 0;
+    } */
+    #service-page .ms-spacer-30 {
+        height: 0;
+    }
+
+}
+
+
+@media (max-width:500px) {
+    /*==================== 01. General CSS ====================*/
+    .ms-heading-text {
+        font-size: 40px;
+    }
+    .ms-sec-padding {
+        padding: 50px 0;
+    }
+    .ms-primary-btn, .ms-secondary-btn {
+        padding: 15px 50px;
+    }
+    /*---------- Footer Section ----------*/
+    footer .footer-top .news-box {
+        padding: 50px 30px;
+    }
+
+    /*==================== 02. Homepage CSS ====================*/
+    /*---------- Banner Section ----------*/
+    #ms-bnr-sec .ms-home-bnr {
+        background-position-x: -230px;
+    }
+    .ms-bnr-txt .hero-text {
+        font-size: 40px;
+    }
+    /*---------- Clients Section ----------*/
+    #ms-client-sec img {
+        padding: 30px;
+    }
+    /*---------- Case Studies Section ----------*/
+    #ms-case-sec {
+        background-position: -660px 25%;
+    }
+    #ms-case-sec .owl-carousel .owl-nav {
+        left: 160px;
+    }
+    /*---------- Awards Section ----------*/
+    #ms-awards-sec {
+        padding-top: 400px;
+        padding-bottom: 350px;
+        margin-top: -350px;
+    }
+    #ms-awards-sec img {
+        margin-bottom: 50px;
+    }
+    #ms-awards-sec .ms-spacer-60 {
+        height: 0;
+    }
+   
+    /*==================== 03. Contact Page CSS ====================*/
+    #ms-form-sec, #ms-service-bnr-sec {
+        padding: 150px 0px 50px;
+    }
+    #ms-form-sec .hero-text {
+        font-size: 50px;
+    }
+    #ms-map-sec iframe {
+        height: 400px;
+    }
+}
+
+
+@media (min-width: 991px) {
+    /*========== Header Section ==========*/
+    header .navbar-nav li.dropdown .dropdown-menu {
+      display: block;
+      min-width: 150px;
+    }
+}
